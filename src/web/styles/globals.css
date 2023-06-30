@@ -8,6 +8,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-span: 219 39 119;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,6 +20,6 @@
 }
 
 body {
-  background-color: black;
+  background-color: #282b30;
   font-family: 'Poppins', sans-serif;
 }
