@@ -2,6 +2,7 @@
 import HeadPage from "@/web/components/Head"
 import Footer from "@/web/components/Footer"
 import Main from "@/web/components/Main"
+import Sidebar from "@/web/components/Sidebar"
 
 // Welcome function
 export default function HomePage() {
@@ -10,7 +11,7 @@ export default function HomePage() {
             <HeadPage />
 
             <Main>
-                <h1 className="cuckoo">Cuckoo</h1>
+                <Sidebar />
             </Main>
 
             <Footer />

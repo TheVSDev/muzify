@@ -1,0 +1,20 @@
+.sidebarContainer {
+    background-color: black;
+    color: rgb(var(--text-dark-color));
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    margin-right: 1270px;
+}
+
+.linksContainer {
+    background-color: rgb(var(--background-dark));
+    border-radius: 15px;
+    width: 200px;
+    padding: 10px;
+}
+
+.sidebarLi {
+    padding: 20px;
+    font-size: 18px;
+}
