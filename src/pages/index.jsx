@@ -1,5 +1,6 @@
 // Imports
 import Image from "next/image"
+import Link from "next/link"
 
 import HeadPage from "@/web/components/Head"
 import styles from "@/web/styles/Welcome.module.css"
@@ -19,7 +20,7 @@ export default function Welcome() {
                     <h1 className={styles.title}>Hello ! Welcome to <span className={styles.spanned}>MUZIFY</span></h1>
                     <p className={styles.paragraphe}>Muzify is an online music player.</p>
                     <br />
-                    <Button btnLabel="Listen to some music" />
+                    <Link href="/home-page"><Button btnLabel="Listen to some music" /></Link>
                 </div>
             </Main>
 
