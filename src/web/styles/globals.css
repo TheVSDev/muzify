@@ -5,21 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* Dark mode colors */
+  --background-dark: 40, 43, 48;
+  --text-dark-color: 206, 206, 206;
+  
+  /* Light mode colors */
+  --background-light: 206, 206, 206;
+  --text-light-color: 40, 43, 48;
+  
+  /* General colors */
   --color-span: 219 39 119;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  background-color: #282b30;
+  background-color: rgb(var(--background-dark));
+  color: rgb(var(--text-dark-color));
   font-family: 'Poppins', sans-serif;
 }
