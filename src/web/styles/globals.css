@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
-
 :root {
   /* Dark mode colors */
   --background-dark: 40, 43, 48;
@@ -20,5 +18,4 @@
 body {
   background-color: rgb(var(--background-dark));
   color: rgb(var(--text-dark-color));
-  font-family: 'Poppins', sans-serif;
 }
