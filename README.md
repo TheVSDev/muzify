@@ -1,7 +1,4 @@
 # muzify
-Online music player
-# NetMAPPER
-
 Web music player.
 
 ## Table of contents
