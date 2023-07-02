@@ -16,6 +16,6 @@
 }
 
 body {
-  background-color: rgb(var(--background-dark));
+  background: linear-gradient(0deg, rgb(var(--background-dark)) 80%, rgb(var(--color-span)));
   color: rgb(var(--text-dark-color));
 }
