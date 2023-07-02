@@ -24,11 +24,25 @@ const Sidebar = () => {
             <ul>
               <li className={styles.sidebarLi}>
                 <Link className="" href="/">
+                  <Image
+                    src="/home.svg"
+                    alt="Home icon"
+                    width={25}
+                    height={58}
+                    className={styles.icon}
+                  />
                   Home
                 </Link>
               </li>
               <li className={styles.sidebarLi}>
                 <Link className="" href="/">
+                  <Image
+                    src="/search.svg"
+                    alt="Search icon"
+                    width={25}
+                    height={58}
+                    className={styles.icon}
+                  />
                   Search
                 </Link>
               </li>

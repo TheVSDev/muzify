@@ -18,3 +18,13 @@
     padding: 15px;
     font-size: 18px;
 }
+
+.sidebarLi:hover {
+    background-color: rgb(var(--color-span-secondary));
+    border-radius: 15px;
+}
+
+.icon {
+    float: left;
+    margin-right: 20px;
+}
