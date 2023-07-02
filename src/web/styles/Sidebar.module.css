@@ -4,8 +4,9 @@
     padding: 10px;
     width: 250px;
     height: 100vh;
-    margin-right: 1270px;
-    float: left;
+    /* margin-right: 1270px; */
+    position: absolute;
+    left: 0;
 }
 
 .linksContainer {
