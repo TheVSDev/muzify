@@ -23,7 +23,7 @@ const Sidebar = () => {
           <div className={styles.linksContainer}>
             <ul>
               <li className={styles.sidebarLi}>
-                <Link className="" href="/">
+                <Link className="" href="/home-page">
                   <Image
                     src="/home.svg"
                     alt="Home icon"
@@ -35,7 +35,7 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li className={styles.sidebarLi}>
-                <Link className="" href="/">
+                <Link className="" href="/search">
                   <Image
                     src="/search.svg"
                     alt="Search icon"
