@@ -15,7 +15,7 @@ export default function Welcome() {
             <HeadPage />
 
             <Main>
-                <Image src="/Muzify.png" alt="Muzify logo" width={200} height={58} className={styles.logo} />
+                <Image src="/Muzify-dark.png" alt="Muzify logo" width={300} height={58} className={styles.logo} />
                 <div className={styles.container}>
                     <h1 className={styles.title}>Hello ! Welcome to <span className={styles.spanned}>MUZIFY</span></h1>
                     <p className={styles.paragraphe}>Muzify is an online music player.</p>
