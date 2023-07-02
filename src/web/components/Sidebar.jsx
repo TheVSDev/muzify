@@ -1,5 +1,6 @@
 // Imports
 import Link from "next/link";
+import Image from "next/image";
 
 import styles from "@/web/styles/Sidebar.module.css";
 import HeadPage from "@/web/components/Head";
@@ -12,6 +13,13 @@ const Sidebar = () => {
       <HeadPage />
       <Main>
         <div className={styles.sidebarContainer}>
+          <Image
+            src="/Muzify.png"
+            alt="Muzify logo"
+            width={200}
+            height={58}
+            className={styles.logo}
+          />
           <div className={styles.linksContainer}>
             <ul>
               <li className={styles.sidebarLi}>
@@ -19,7 +27,11 @@ const Sidebar = () => {
                   Home
                 </Link>
               </li>
-              <li className={styles.sidebarLi}>Search</li>
+              <li className={styles.sidebarLi}>
+                <Link className="" href="/">
+                  Search
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
