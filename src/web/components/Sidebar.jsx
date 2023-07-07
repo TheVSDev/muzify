@@ -48,6 +48,22 @@ const Sidebar = () => {
               </Link>
             </ul>
           </div>
+          <div className={styles.linksContainer}>
+            <ul>
+                <li className={styles.sidebarLi}>
+                  <Image
+                    src="/upload.svg"
+                    alt="Home icon"
+                    width={25}
+                    height={58}
+                    className={styles.icon}
+                  />
+                  {/* <label for="upload_music">Upload music</label>
+                  <input type="file" accept="audio/*" name="upload_music" id="upload_music" /> */}
+                  Upload music
+                </li>
+            </ul>
+          </div>
         </div>
       </Main>
     </>

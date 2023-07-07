@@ -14,6 +14,7 @@
     border-radius: 15px;
     width: 228px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .sidebarLi {
@@ -24,6 +25,7 @@
 .sidebarLi:hover {
     background-color: rgb(var(--color-span-secondary));
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .icon {
