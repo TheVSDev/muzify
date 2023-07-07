@@ -22,8 +22,8 @@ const Sidebar = () => {
           />
           <div className={styles.linksContainer}>
             <ul>
-              <li className={styles.sidebarLi}>
-                <Link className="" href="/home-page">
+              <Link className="" href="/home-page">
+                <li className={styles.sidebarLi}>
                   <Image
                     src="/home.svg"
                     alt="Home icon"
@@ -32,10 +32,10 @@ const Sidebar = () => {
                     className={styles.icon}
                   />
                   Home
-                </Link>
-              </li>
-              <li className={styles.sidebarLi}>
-                <Link className="" href="/search">
+                </li>
+              </Link>
+              <Link className="" href="/search">
+                <li className={styles.sidebarLi}>
                   <Image
                     src="/search.svg"
                     alt="Search icon"
@@ -44,8 +44,8 @@ const Sidebar = () => {
                     className={styles.icon}
                   />
                   Search
-                </Link>
-              </li>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
