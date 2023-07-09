@@ -30,8 +30,8 @@ Muzify is a web music player.
 - JS
 
 #### Frameworks
+- Next.js (Pages Router)
 - ReactJS
-- Next.js
 - Node.js
 - Tailwind CSS
 
