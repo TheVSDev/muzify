@@ -9,16 +9,16 @@ import styles from "@/web/styles/Upload.module.css";
 
 // Welcome function
 export default function Upload() {
-  const [audioFile, setAudioFile] = useState(null);
+  const [audioFile, setAudioFile] = useState({ file: null, name: "" });
 
   const handleFileUpload = (event) => {
     const uploadedFile = event.target.files[0];
-    setAudioFile({
-      file: URL.createObjectURL(uploadedFile)});
+    const fileName = uploadedFile.name.split('.').slice(0, -1).join('.');
+    setAudioFile({ file: URL.createObjectURL(uploadedFile), name: fileName });
   };
 
   const handleDeleteFile = () => {
-    setAudioFile(null);
+    setAudioFile({ file: null, name: "" });
   };
 
   return (
@@ -44,11 +44,15 @@ export default function Upload() {
           </button>
         </div>
         <div className={styles.musicContainer}>
-          {audioFile && (
+          {audioFile.file && (
+            <div className={styles.audioPlayerContainer}>
+              <p>{audioFile.name}</p>
+              <br />
               <audio controls className={styles.audioPlayer}>
                 <source src={audioFile.file} type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
+            </div>
           )}
         </div>
       </Main>
