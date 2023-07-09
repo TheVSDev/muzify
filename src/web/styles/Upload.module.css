@@ -1,0 +1,49 @@
+.container {
+    margin-top: 200px;
+    padding: 50px;
+    text-align: center;
+    position: absolute;
+    left: 668px;
+    bottom: 430px;
+
+    /* Glass effect */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Upload file button */
+.upload {
+    display: none;
+}
+
+.label {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Button style */
+    background-color: #fbc2de;
+    border-radius: 100px;
+    box-shadow: rgba(187, 44, 156, 0.2) 0 -25px 18px -14px inset,rgba(187, 44, 180, 0.15) 0 1px 2px,rgba(187, 44, 180, 0.15) 0 2px 4px,rgba(187, 44, 180, 0.15) 0 4px 8px,rgba(187, 44, 180, 0.15) 0 8px 16px,rgba(187, 44, 180, 0.15) 0 16px 32px;
+    color: rgb(255, 0, 204);
+    cursor: pointer;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.label:hover {
+    box-shadow: rgba(187, 44, 182, 0.35) 0 -25px 18px -14px inset,rgba(187, 44, 139, 0.25) 0 1px 2px,rgba(187, 44, 139, 0.25) 0 2px 4px,rgba(187, 44, 139, 0.25) 0 4px 8px,rgba(187, 44, 139, 0.25) 0 8px 16px,rgba(187, 44, 139, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
