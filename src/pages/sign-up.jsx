@@ -2,6 +2,7 @@
 import Head from "next/head"
 import * as yup from "yup"
 import { useRouter } from "next/router.js"
+import Link from "next/link"
 
 import Main from "@/web/components/Main"
 import Footer from "@/web/components/Footer"
@@ -68,6 +69,7 @@ const SignUp = () => {
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
         >
+          <span className="text-sm">You already have an account ? <br /><Link href="/sign-in" className="text-pink-500">Log in</Link></span><br /><br />
           <label>Username:</label>
           <FormField name="username" placeholder="jdoe" label="Username" />
           <br />

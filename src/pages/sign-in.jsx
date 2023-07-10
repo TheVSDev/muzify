@@ -1,6 +1,7 @@
 // Imports
 import Head from "next/head"
 import * as yup from "yup"
+import Link from "next/link"
 // import { useRouter } from "next/router"
 // import { useContext } from "react"
 
@@ -54,6 +55,7 @@ const SignIn = () => {
           validationSchema={validationSchema}
           // onSubmit={handleSubmit}
         >
+          <span className="text-sm">You don&apos;t have an account ? <br /><Link href="/sign-up" className="text-pink-500">Create one</Link></span><br /><br />
           <label>Username:</label>
           <FormField
             name="username"
