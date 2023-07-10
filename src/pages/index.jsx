@@ -21,6 +21,10 @@ export default function Welcome() {
                     <p className={styles.paragraphe}>Muzify is an online music player.</p>
                     <br />
                     <Link href="/home-page"><Button btnLabel="Listen to some music" /></Link>
+                    <br />
+                    <br />
+                    <Link href="/sign-in"><Button btnLabel="Sign In" /></Link>
+                    <Link href="/sign-up"><Button btnLabel="Sign Up" /></Link>
                 </div>
             </Main>
 
