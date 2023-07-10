@@ -4,7 +4,7 @@ import Footer from "@/web/components/Footer"
 import Main from "@/web/components/Main"
 import Sidebar from "@/web/components/Sidebar"
 
-// Welcome function
+// HomePage function
 export default function HomePage() {
     return (
         <>

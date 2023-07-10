@@ -64,6 +64,58 @@ const Sidebar = () => {
               </Link>
             </ul>
           </div>
+          <div className={styles.linksContainer}>
+            <ul>
+              <Link href="/playlists">
+                <li className={styles.sidebarLi}>
+                  <Image
+                    src="/playlist.svg"
+                    alt="Playlist"
+                    width={25}
+                    height={58}
+                    className={styles.icon}
+                  />
+                  Playlists
+                </li>
+              </Link>
+              <Link href="/liked-songs">
+                <li className={styles.sidebarLi}>
+                  <Image
+                    src="/liked.svg"
+                    alt="Liked"
+                    width={25}
+                    height={58}
+                    className={styles.icon}
+                  />
+                  Liked songs
+                </li>
+              </Link>
+              <Link href="/favorite-songs">
+                <li className={styles.sidebarLi}>
+                  <Image
+                    src="/favorite.svg"
+                    alt="Favorite"
+                    width={25}
+                    height={58}
+                    className={styles.icon}
+                  />
+                  Favorite songs
+                </li>
+              </Link>
+              <Link href="/saved-songs">
+                <li className={styles.sidebarLi}>
+                  <Image
+                    src="/saved.svg"
+                    alt="Saved"
+                    width={25}
+                    height={58}
+                    className={styles.icon}
+                  />
+                  Saved songs
+                </li>
+              </Link>
+            </ul>
+          </div>
         </div>
       </Main>
     </>

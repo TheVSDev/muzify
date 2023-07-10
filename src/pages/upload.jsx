@@ -7,7 +7,7 @@ import Main from "@/web/components/Main";
 import Sidebar from "@/web/components/Sidebar";
 import styles from "@/web/styles/Upload.module.css";
 
-// Welcome function
+// Upload function
 export default function Upload() {
   const [audioFile, setAudioFile] = useState({ file: null, name: "" });
 
