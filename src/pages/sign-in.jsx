@@ -11,6 +11,7 @@ import Main from "@/web/components/Main"
 import Form from "@/web/components/Form"
 import FormField from "@/web/components/FormField"
 import Footer from "@/web/components/Footer"
+import HeadPage from "@/web/components/Head"
 
 // Form attributes
 const initialValues = {
@@ -42,11 +43,7 @@ const SignIn = () => {
 
   return (
     <>
-      <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.svg" />
-          <title>Net Mapper</title>
-      </Head>
+      <HeadPage />
       <Main>
         <br />
         <Form

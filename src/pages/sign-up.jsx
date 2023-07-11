@@ -4,6 +4,7 @@ import * as yup from "yup"
 import { useRouter } from "next/router.js"
 import Link from "next/link"
 
+import HeadPage from "@/web/components/Head"
 import Main from "@/web/components/Main"
 import Footer from "@/web/components/Footer"
 import Form from "@/web/components/Form.jsx"
@@ -56,11 +57,7 @@ const SignUp = () => {
 
   return (
     <>
-      <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.svg" />
-          <title>Net Mapper</title>
-      </Head>
+      <HeadPage />
       <Main>
         <br />
         <Form
