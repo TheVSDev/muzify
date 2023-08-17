@@ -47,7 +47,7 @@
 
 .title {
   position: absolute;
-  color: rgb(var(--text-dark-color));
+  color: var(--text-color);
   left: 700px;
   font-size: 50px;
 }

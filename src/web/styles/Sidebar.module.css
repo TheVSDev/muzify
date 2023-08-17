@@ -10,7 +10,7 @@
 }
 
 .linksContainer {
-    background-color: rgb(var(--background-dark));
+    background-color: var(--background-color);
     border-radius: 15px;
     width: 228px;
     padding: 10px;
@@ -23,7 +23,7 @@
 }
 
 .sidebarLi:hover {
-    background-color: rgb(var(--color-span-secondary));
+    background-color: var(--color-span-secondary);
     border-radius: 15px;
     cursor: pointer;
 }

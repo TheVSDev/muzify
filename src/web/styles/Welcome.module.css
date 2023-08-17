@@ -5,7 +5,7 @@
 }
 
 .spanned {
-    color: rgb(var(--color-span));
+    color: var(--color-span);
 }
 
 .paragraphe {

@@ -2,21 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Dark mode colors */
 :root {
-  /* Dark mode colors */
-  --background-dark: 40, 43, 48;
-  --text-dark-color: 206, 206, 206;
-  
-  /* Light mode colors */
-  --background-light: 206, 206, 206;
-  --text-light-color: 40, 43, 48;
-  
-  /* General colors */
-  --color-span: 219 39 119;
-  --color-span-secondary: 189, 26, 129;
+  --background-color: #282b30;
+  --text-color: #cecece;
+  --color-span: #db2777;
+  --color-span-secondary: #bd1a81;
+}
+
+/* Light mode colors */
+.light {
+  --background-color: #cecece;
+  --text-color: #282b30;
+  --color-span: #db2777;
+  --color-span-secondary: #bd1a81;
 }
 
 body {
-  background: linear-gradient(0deg, rgb(var(--background-dark)) 80%, rgb(var(--color-span)));
-  color: rgb(var(--text-dark-color));
+  background: linear-gradient(0deg, var(--background-color) 80%, var(--color-span));
+  color: var(--text-color);
 }
