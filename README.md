@@ -40,4 +40,4 @@ Muzify is a web music player.
 
 ## Author
 
-- Website - [Veljko Spasic](https://veljkospasic.rf.gd)
+- Website - [Veljko Spasic](https://veljko-spasic.rf.gd)
