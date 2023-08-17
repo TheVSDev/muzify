@@ -5,6 +5,7 @@ import Image from "next/image";
 import styles from "@/web/styles/Sidebar.module.css";
 import HeadPage from "@/web/components/Head";
 import Main from "./Main";
+import ThemeSwitchButton from "./ThemeSwitchButton";
 
 // Sidebar component
 const Sidebar = () => {
@@ -20,6 +21,7 @@ const Sidebar = () => {
             height={58}
             className={styles.logo}
           />
+          <ThemeSwitchButton />
           <div className={styles.linksContainer}>
             <ul>
               <Link className="" href="/home-page">
