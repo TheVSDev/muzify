@@ -5,17 +5,23 @@
 /* Dark mode colors */
 :root {
   --background-color: #282b30;
+  --foreground-color: #282b30;
   --text-color: #cecece;
   --color-span: #db2777;
   --color-span-secondary: #bd1a81;
+  --monochrome: #111;
+  --monochrome-inverse: #fff;
 }
 
 /* Light mode colors */
 .light {
   --background-color: #cecece;
+  --foreground-color: #7c7c7c;
   --text-color: #282b30;
   --color-span: #db2777;
   --color-span-secondary: #bd1a81;
+  --monochrome: #fff;
+  --monochrome-inverse: #111;
 }
 
 body {

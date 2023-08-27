@@ -1,5 +1,5 @@
 .sidebarContainer {
-    background-color: black;
+    background-color: var(--monochrome);
     color: white;
     padding: 10px;
     width: 250px;
@@ -10,7 +10,7 @@
 }
 
 .linksContainer {
-    background-color: var(--background-color);
+    background-color: var(--foreground-color);
     border-radius: 15px;
     width: 228px;
     padding: 10px;
